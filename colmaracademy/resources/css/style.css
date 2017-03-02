@@ -1,0 +1,270 @@
+body {
+  color: grey;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  background-color: white;
+}
+
+h1 {
+  font-famiy: sans-serif;
+  font-weight: bold;
+}
+
+.content {
+  border: thin solid gray;
+  border-top: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  flex-grow: 1;
+}
+
+.logo img {
+}
+
+.logo span {
+
+}
+
+header nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+ nav span {
+   display: inline-block;
+   padding: 0 16px 0 16px;
+ }
+
+ nav span a {
+   text-decoration: none;
+   color: gray;
+ }
+
+
+
+ .first-container {
+   background-color: lightgray;
+   top: 35px;
+   position: relative;
+   width: 100%;
+   display: flex;
+ }
+
+ .first-container img {
+   height: auto;
+   width: 60%;
+   margin: 32px 40px 32px 24px;
+ }
+
+ .information {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   line-height: 1.5;
+   margin-right: 24px
+ }
+
+.button {
+  background-color: #4f2838;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 5px;
+
+}
+
+ .button p {
+   padding-top: 8px;
+ }
+
+
+ .second-container {
+   display: inline-flex;
+   margin-top: 32px;
+ }
+
+ .practicing {
+
+   text-align: start;
+   margin: 32px 24px 0 24px;
+   background-color: white;
+   display: inline-flex;
+   flex-direction: column;
+ }
+
+ .practicing-image {
+
+ }
+
+ .practicing img {
+   width: 94%;
+
+ }
+
+ .practicing h1 {
+   font-family: sans-serif;
+   margin-bottom: 24px;
+ }
+
+ .quote span {
+
+ }
+
+
+ .information-squares {
+   margin-top: 32px;
+   border-left: thin solid gray;
+   width: 423px;
+   background-color: white;
+   width: auto;
+ }
+
+ .information-squares:nth-child(3n+0) {
+   background-color: gray;
+ }
+
+.information-square {
+  display: flex;
+  text-align: left;
+}
+
+.information-square img {
+  width: 35%;
+  height: 35%;
+  margin: 16px 16px;
+}
+
+.information-square h2, p {
+  padding-bottom: 8px;
+  margin-left: 16px;
+}
+
+.information-square p a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.information-text {
+
+}
+
+
+.third-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  margin-bottom: 32px;
+  font-family: sans-serif;
+  padding: 32px 0;
+  text-align: center;
+}
+
+.learning-squares {
+
+}
+
+.learning-square {
+  background-color: white;
+
+}
+
+.learning-square-text {
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+.learning-square-text h3 {
+  padding-top: 16px;
+
+}
+
+.learning-square-text span {
+  padding: 8px 0;
+}
+
+.fourth-container {
+  display: flex;
+  margin: 32px 0 32px 24px;
+  text-align: center;
+  width: auto;
+  flex-direction: column;
+}
+
+.thesis {
+  margin-right: 16px;
+
+}
+
+.thesis h1 {
+
+}
+
+.video {
+
+}
+
+.video-text {
+  width: 750px;
+}
+
+.thesis-squares {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.thesis-squares:nth-child(1n+0) {
+  background-color: gray;
+}
+
+.thesis-square {
+  height: 168px;
+  width: 423px;
+  display: flex;
+  text-align: left;
+}
+
+.thesis-square img {
+  margin: 16px;
+}
+
+.thesis-square-text {
+  dislay: flex;
+  align-items: center;
+  color: white;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 24px 0 24px;
+  height: 100px;
+  border-top: thin solid gray;
+}
+
+.copyright {
+
+
+}
+
+.terms-privacy span a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: gray;
+}
